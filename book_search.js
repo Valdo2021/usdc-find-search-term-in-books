@@ -22,9 +22,37 @@
     /** You will need to implement your search and 
      * return the appropriate object here. */
 
+    let i = 0;
+    var jsonArr = [];
+
+    while (i < scannedTextObj.length) {
+        console.log("Data element: ",scannedTextObj[i]);
+        
+        console.log("Content data prop: ",scannedTextObj[i].Content);
+        let j = 0;
+        while(j < scannedTextObj[i].Content.length){
+            console.log("Content data: ",scannedTextObj[i].Content[j].Text);
+            if(scannedTextObj[i].Content[j].Text.includes(searchTerm)){
+                console.log("searchTerm found --> Need to add it.");
+
+                jsonArr.push({
+                    ISBN: scannedTextObj[i].ISBN,
+                    Page: scannedTextObj[i].Content[j].Page,
+                    Line: scannedTextObj[i].Content[j].Line
+                });
+            }
+            
+            j++;
+        }
+
+        i++;
+    }
+
+    console.log("jsonArr data --> ",jsonArr)
+
     var result = {
-        "SearchTerm": "",
-        "Results": []
+        "SearchTerm": searchTerm,
+        "Results": jsonArr
     };
     
     return result; 
