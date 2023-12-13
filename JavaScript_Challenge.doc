@@ -1,0 +1,31 @@
+<html xmlns:o='urn:schemas-microsoft-com:office:office' xmlns:w='urn:schemas-microsoft-com:office:word' xmlns='https://www.w3.org/TR/REC-html40'><head><meta charset='utf-8'><title>Exported Article from QuillBot</title></head><body><p style="color: #252525;">&nbsp;</p>
+<p style="color: #252525;"><span style="font-weight: 400; color: #252525;">Overall process and decision-making:</span></p>
+<p style="color: #252525;">&nbsp;</p>
+<p style="color: #252525;"><span style="font-weight: 400; color: #252525;">The solution is derived based on the divide and conquer method, where I broke down the problem statement into multiple portions and focused on one at a time.</span></p>
+<p style="color: #252525;"><span style="font-weight: 400; color: #252525;">To develop the function for findSearchTermInBooks, I used the searchTerm to pass the same value directly in the result data structure.</span></p>
+<p style="color: #252525;"><br style="color: #252525;" /><br style="color: #252525;" /></p>
+<p style="color: #252525;"><span style="font-weight: 400; color: #252525;">Testing and iteration:</span></p>
+<p style="color: #252525;">&nbsp;</p>
+<p style="color: #252525;"><span style="font-weight: 400; color: #252525;">To prepare the result object, I have iterated the input text object in two nested loops and stored it for the ISBN from the first loop and the content's page </span><span style="font-weight: 400; color: #252525;">number and line value from the second loop only if scanned Object content's text has the searchTerm as a matching string using the includes function.</span></p>
+<p style="color: #252525;"><span style="font-weight: 400; color: #252525;">Once all the objects are processed in the loops, the final jsonArray is supplied to the result object as the final value to return from the</span></p>
+<p style="color: #252525;"><span style="font-weight: 400; color: #252525;">findSearchTermInBooks function.</span></p>
+<p style="color: #252525;"><br style="color: #252525;" /><br style="color: #252525;" /></p>
+<p style="color: #252525;"><span style="font-weight: 400; color: #252525;">Strategy:</span></p>
+<p style="color: #252525;">&nbsp;</p>
+<p style="color: #252525;"><span style="font-weight: 400; color: #252525;">The applied strategy is based on the divide and conquer method, in which I divided the issue statement into several smaller parts and</span></p>
+<p style="color: #252525;"><span style="font-weight: 400; color: #252525;">paid attention to each one separately.</span></p>
+<p style="color: #252525;"><br style="color: #252525;" /><br style="color: #252525;" /></p>
+<p style="color: #252525;"><span style="font-weight: 400; color: #252525;">Solution to be proud of:</span></p>
+<p style="color: #252525;">&nbsp;</p>
+<p style="color: #252525;"><span style="font-weight: 400; color: #252525;">The final solution passes both test cases as given in the problem statement, and I have added multiple debug points as well.</span></p>
+<p style="color: #252525;"><span style="font-weight: 400; color: #252525;">trace all the step-by-step status of the processing logic inside the findSearchTermInBooks function.</span></p>
+<p style="color: #252525;"><br style="color: #252525;" /><br style="color: #252525;" /></p>
+<p style="color: #252525;"><span style="font-weight: 400; color: #252525;">The most difficult part:</span></p>
+<p style="color: #252525;">&nbsp;</p>
+<p style="color: #252525;"><span style="font-weight: 400; color: #252525;">Overall, the problem was manageable to find a solution to, but if I were asked to name the most difficult part, I would say the step-by-step understanding.</span></p>
+<p style="color: #252525;"><span style="font-weight: 400; color: #252525;">The given algorithm was a bit difficult to understand and apply logic to to pass all the test cases.</span><br style="color: #252525;" /><br style="color: #252525;" /></p>
+<p style="color: #252525;">&nbsp;</p>
+<p style="color: #252525;"><span style="font-weight: 400; color: #252525;">Edge cases:</span></p>
+<p style="color: #252525;">&nbsp;</p>
+<p style="color: #252525;"><span style="font-weight: 400; color: #252525;">A few other edge cases, such as alpha numeric values for the search term and typo mistakes in the content, may be those rare edge cases that I may </span><span style="font-weight: 400; color: #252525;">consider providing a robust solution.</span></p>
+<p style="color: #252525;">&nbsp;</p></body></html>
